@@ -32,9 +32,11 @@ Create a `.env` file in the root of folder and paste the following keys in the f
 ACCOUNT_URI=
 ACCOUNT_KEY=
 USE_AAD_AUTH=false
-AAD_TENANT_ID=
-AAD_CLIENT_ID=
-AAD_CLIENT_SECRET=
+CREATE_IF_NOT_EXISTS=false
+TENANT_ID=
+CLIENT_ID=
+CLIENT_SECRET=
+DATABASE_NAME=
 ```
 
 ### Running
