@@ -1,0 +1,135 @@
+[
+  {
+    "id": 100,
+    "code": "PERSONAL_INSURANCE",
+    "name": "Personal Insurance",
+    "description": "Protects individuals and their families from various personal risks.",
+    "type": "product_line"
+  },
+  {
+    "id": 200,
+    "code": "COMMERCIAL_INSURANCE",
+    "name": "Commercial Insurance",
+    "description": "Provides coverage for businesses and their operations",
+    "type": "product_line"
+  },
+  {
+    "id": 300,
+    "code": "SPECIALTY_INSURANCE",
+    "name": "Specialty Insurance",
+    "description": "Offers protection for specific needs or industries.",
+    "type": "product_line"
+  },
+  {
+    "id": 10000,
+    "code": "PET_INSURANCE",
+    "name": "Pet Insurance",
+    "description": "Helps cover veterinary costs for your pets.",
+    "type": "PERSONAL_INSURANCE"
+  },
+  {
+    "id": 11000,
+    "code": "FLOOD_INSURANCE",
+    "name": "Flood Insurance",
+    "description": "Covers damage to your property due to flooding.",
+    "type": "PERSONAL_INSURANCE"
+  },
+  {
+    "id": 12000,
+    "code": "TRAVEL_INSURANCE",
+    "name": "Travel Insurance",
+    "description": "Covers cancellations and medical expenses while traveling.",
+    "type": "PERSONAL_INSURANCE"
+  },
+  {
+    "id": 13000,
+    "code": "COMMERCIAL_INSURANCE",
+    "name": "Commercial Insurance",
+    "description": "Provides coverage for businesses and their operations.",
+    "type": "COMMERCIAL_INSURANCE"
+  },
+  {
+    "id": 14000,
+    "code": "PROPERTY_INSURANCE",
+    "name": "Property Insurance",
+    "description": "Covers damage to business property.",
+    "type": "COMMERCIAL_INSURANCE"
+  },
+  {
+    "id": 15000,
+    "code": "LIABILITY_INSURANCE",
+    "name": "Liability Insurance",
+    "description": "Protects against claims of negligence or harm.",
+    "type": "COMMERCIAL_INSURANCE"
+  },
+  {
+    "id": 16000,
+    "code": "WORKERS_COMPENSATION",
+    "name": "Workers' Compensation",
+    "description": "Covers employee injuries on the job.",
+    "type": "COMMERCIAL_INSURANCE"
+  },
+  {
+    "id": 17000,
+    "code": "PRODUCT_LIABILITY_INSURANCE",
+    "name": "Product Liability Insurance",
+    "description": "Protects against claims related to product defects.",
+    "type": "COMMERCIAL_INSURANCE"
+  },
+  {
+    "id": 18000,
+    "code": "BUSINESS_INTERRUPTION_INSURANCE",
+    "name": "Business Interruption Insurance",
+    "description": "Compensates for lost income during disruptions.",
+    "type": "COMMERCIAL_INSURANCE"
+  },
+  {
+    "id": 19000,
+    "code": "PROFESSIONAL_LIABILITY_INSURANCE",
+    "name": "Professional Liability Insurance",
+    "description": "Covers professionals against malpractice claims.",
+    "type": "COMMERCIAL_INSURANCE"
+  },
+  {
+    "id": 20000,
+    "code": "CYBER_LIABILITY_INSURANCE",
+    "name": "Cyber Liability Insurance",
+    "description": "Protects against data breaches and cyber threats.",
+    "type": "COMMERCIAL_INSURANCE"
+  },
+  {
+    "id": 21000,
+    "code": "SPECIALTY_INSURANCE",
+    "name": "Specialty Insurance",
+    "description": "Offers protection for specific needs or industries.",
+    "type": "SPECIALTY_INSURANCE"
+  },
+  {
+    "id": 22000,
+    "code": "MARINE_INSURANCE",
+    "name": "Marine Insurance",
+    "description": "Covers loss or damage of ships and cargo at sea.",
+    "type": "SPECIALTY_INSURANCE"
+  },
+  {
+    "id": 23000,
+    "code": "AVIATION_INSURANCE",
+    "name": "Aviation Insurance",
+    "description": "Protects against risks associated with aircraft operations.",
+    "type": "SPECIALTY_INSURANCE"
+  },
+  {
+    "id": 24000,
+    "code": "AGRICULTURAL_INSURANCE",
+    "name": "Agricultural Insurance",
+    "description": "Covers crops and livestock against unforeseen events.",
+    "type": "SPECIALTY_INSURANCE"
+  },
+  {
+    "id": 25000,
+    "code": "ENVIRONMENTAL_INSURANCE",
+    "name": "Environmental Insurance",
+    "description": "Protects against environmental liability and cleanup costs.",
+    "type": "SPECIALTY_INSURANCE"
+  }
+]
