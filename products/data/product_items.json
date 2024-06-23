@@ -3,252 +3,252 @@
     "id": 1000,
     "code": "AUTO_INSURANCE_LIABILITY_COVERAGE",
     "name": "Auto Insurance Liability Coverage",
-    "type": "coverage",
-    "product_code": "AUTO_INSURANCE"
+    "product_type": "coverage",
+    "type": "AUTO_INSURANCE"
   },
   {
     "id": 1100,
     "code": "AUTO_INSURANCE_COLLISION_COVERAGE",
     "name": "Auto Insurance Collision Coverage",
-    "type": "coverage",
-    "product_code": "AUTO_INSURANCE"
+    "product_type": "coverage",
+    "type": "AUTO_INSURANCE"
   },
   {
     "id": 1200,
     "code": "AUTO_INSURANCE_COMPREHENSIVE_COVERAGE",
     "name": "Auto Insurance Comprehensive Coverage",
-    "type": "coverage",
-    "product_code": "AUTO_INSURANCE"
+    "product_type": "coverage",
+    "type": "AUTO_INSURANCE"
   },
   {
     "id": 1300,
     "code": "AUTO_INSURANCE_PIP",
     "name": "Auto Insurance Personal Injury Protection",
-    "type": "coverage",
-    "product_code": "AUTO_INSURANCE"
+    "product_type": "coverage",
+    "type": "AUTO_INSURANCE"
   },
   {
     "id": 1400,
     "code": "AUTO_INSURANCE_UNINSURED_MOTORIST_COVERAGE",
     "name": "Auto Insurance Uninsured Motorist Coverage",
-    "type": "coverage",
-    "product_code": "AUTO_INSURANCE"
+    "product_type": "coverage",
+    "type": "AUTO_INSURANCE"
   },
   {
     "id": 1500,
     "code": "AUTO_INSURANCE_UNDERINSURED_MOTORIST_COVERAGE",
     "name": "Auto Insurance Underinsured Motorist Coverage",
-    "type": "coverage",
-    "product_code": "AUTO_INSURANCE"
+    "product_type": "coverage",
+    "type": "AUTO_INSURANCE"
   },
   {
     "id": 2000,
     "code": "HOMEOWNERS_INSURANCE_DWELLING",
     "name": "Homeowners Insurance Dwelling",
-    "type": "coverage",
-    "product_code": "HOMEOWNERS_INSURANCE"
+    "product_type": "coverage",
+    "type": "HOMEOWNERS_INSURANCE"
   },
   {
     "id": 2100,
     "code": "HOMEOWNERS_INSURANCE_PERSONAL_PROPERTY",
     "name": "Homeowners Insurance Personal Property",
-    "type": "coverage",
-    "product_code": "HOMEOWNERS_INSURANCE"
+    "product_type": "coverage",
+    "type": "HOMEOWNERS_INSURANCE"
   },
   {
     "id": 2200,
     "code": "HOMEOWNERS_INSURANCE_LIABILITY",
     "name": "Homeowners Insurance Liability",
-    "type": "coverage",
-    "product_code": "HOMEOWNERS_INSURANCE"
+    "product_type": "coverage",
+    "type": "HOMEOWNERS_INSURANCE"
   },
   {
     "id": 2300,
     "code": "HOMEOWNERS_INSURANCE_MEDICAL_PAYMENTS_TO_OTHERS",
     "name": "Homeowners Insurance Medical Payments to Others",
-    "type": "coverage",
-    "product_code": "HOMEOWNERS_INSURANCE"
+    "product_type": "coverage",
+    "type": "HOMEOWNERS_INSURANCE"
   },
   {
     "id": 2400,
     "code": "HOMEOWNERS_INSURANCE_ADDITIONAL_LIVING_EXPENSES",
     "name": "Homeowners Insurance Additional Living Expenses",
-    "type": "coverage",
-    "product_code": "HOMEOWNERS_INSURANCE"
+    "product_type": "coverage",
+    "type": "HOMEOWNERS_INSURANCE"
   },
   {
     "id": 3000,
     "code": "RENTERS_INSURANCE_PERSONAL_PROPERTY",
     "name": "Renters Insurance Personal Property",
-    "type": "coverage",
-    "product_code": "RENTERS_INSURANCE"
+    "product_type": "coverage",
+    "type": "RENTERS_INSURANCE"
   },
   {
     "id": 3100,
     "code": "RENTERS_INSURANCE_LIABILITY",
     "name": "Renters Insurance Liability",
-    "type": "coverage",
-    "product_code": "RENTERS_INSURANCE"
+    "product_type": "coverage",
+    "type": "RENTERS_INSURANCE"
   },
   {
     "id": 3200,
     "code": "RENTERS_INSURANCE_ADDITIONAL_LIVING_EXPENSES",
     "name": "Renters Insurance Additional Living Expenses",
-    "type": "coverage",
-    "product_code": "RENTERS_INSURANCE"
+    "product_type": "coverage",
+    "type": "RENTERS_INSURANCE"
   },
   {
     "id": 4000,
     "code": "UMBRELLA_INSURANCE_EXTRA_LIABILITY",
     "name": "Umbrella Insurance Extra Liability",
-    "type": "coverage",
-    "product_code": "UMBRELLA_INSURANCE"
+    "product_type": "coverage",
+    "type": "UMBRELLA_INSURANCE"
   },
   {
     "id": 5000,
     "code": "HEALTH_INSURANCE_DOCTOR_VISITS",
     "name": "Health Insurance Doctor Visits",
-    "type": "coverage",
-    "product_code": "HEALTH_INSURANCE"
+    "product_type": "coverage",
+    "type": "HEALTH_INSURANCE"
   },
   {
     "id": 5100,
     "code": "HEALTH_INSURANCE_HOSPITAL_STAYS",
     "name": "Health Insurance Hospital Stays",
-    "type": "coverage",
-    "product_code": "HEALTH_INSURANCE"
+    "product_type": "coverage",
+    "type": "HEALTH_INSURANCE"
   },
   {
     "id": 5200,
     "code": "HEALTH_INSURANCE_PREVENTIVE_CARE",
     "name": "Health Insurance Preventive Care",
-    "type": "coverage",
-    "product_code": "HEALTH_INSURANCE"
+    "product_type": "coverage",
+    "type": "HEALTH_INSURANCE"
   },
   {
     "id": 5300,
     "code": "HEALTH_INSURANCE_PRESCRIPTION_DRUGS",
     "name": "Health Insurance Prescription Drugs",
-    "type": "coverage",
-    "product_code": "HEALTH_INSURANCE"
+    "product_type": "coverage",
+    "type": "HEALTH_INSURANCE"
   },
   {
     "id": 5400,
     "code": "HEALTH_INSURANCE_DENTAL_CARE",
     "name": "Health Insurance Dental Care",
-    "type": "coverage",
-    "product_code": "HEALTH_INSURANCE"
+    "product_type": "coverage",
+    "type": "HEALTH_INSURANCE"
   },
   {
     "id": 5500,
     "code": "HEALTH_INSURANCE_VISION_CARE",
     "name": "Health Insurance Vision Care",
-    "type": "coverage",
-    "product_code": "HEALTH_INSURANCE"
+    "product_type": "coverage",
+    "type": "HEALTH_INSURANCE"
   },
   {
     "id": 6000,
     "code": "LONG_TERM_CARE_INSURANCE_NURSING_HOME_CARE",
     "name": "Long-Term Care Insurance Nursing Home Care",
-    "type": "coverage",
-    "product_code": "LONG_TERM_CARE_INSURANCE"
+    "product_type": "coverage",
+    "type": "LONG_TERM_CARE_INSURANCE"
   },
   {
     "id": 6100,
     "code": "LONG_TERM_CARE_INSURANCE_HOME_HEALTH_CARE",
     "name": "Long-Term Care Insurance Home Health Care",
-    "type": "coverage",
-    "product_code": "LONG_TERM_CARE_INSURANCE"
+    "product_type": "coverage",
+    "type": "LONG_TERM_CARE_INSURANCE"
   },
   {
     "id": 6200,
     "code": "LONG_TERM_CARE_INSURANCE_PERSONAL_OR_ADULT_DAY_CARE",
     "name": "Long-Term Care Insurance Personal or Adult Day Care",
-    "type": "coverage",
-    "product_code": "LONG_TERM_CARE_INSURANCE"
+    "product_type": "coverage",
+    "type": "LONG_TERM_CARE_INSURANCE"
   },
   {
     "id": 7000,
     "code": "DISABILITY_INSURANCE_INCOME_PROTECTION",
     "name": "Disability Insurance Income Protection",
-    "type": "coverage",
-    "product_code": "DISABILITY_INSURANCE"
+    "product_type": "coverage",
+    "type": "DISABILITY_INSURANCE"
   },
   {
     "id": 8000,
     "code": "LIFE_INSURANCE_DEATH_BENEFIT",
     "name": "Life Insurance Death Benefit",
-    "type": "coverage",
-    "product_code": "LIFE_INSURANCE"
+    "product_type": "coverage",
+    "type": "LIFE_INSURANCE"
   },
   {
     "id": 9000,
     "code": "DENTAL_INSURANCE_PREVENTIVE_CARE",
     "name": "Dental Insurance Preventive Care",
-    "type": "coverage",
-    "product_code": "DENTAL_INSURANCE"
+    "product_type": "coverage",
+    "type": "DENTAL_INSURANCE"
   },
   {
     "id": 9100,
     "code": "DENTAL_INSURANCE_RESTORATIVE_SERVICES",
     "name": "Dental Insurance Restorative Services",
-    "type": "coverage",
-    "product_code": "DENTAL_INSURANCE"
+    "product_type": "coverage",
+    "type": "DENTAL_INSURANCE"
   },
   {
     "id": 9200,
     "code": "DENTAL_INSURANCE_ORTHODONTICS",
     "name": "Dental Insurance Orthodontics",
-    "type": "coverage",
-    "product_code": "DENTAL_INSURANCE"
+    "product_type": "coverage",
+    "type": "DENTAL_INSURANCE"
   },
   {
     "id": 9300,
     "code": "DENTAL_INSURANCE_MAJOR_DENTAL_WORK",
     "name": "Dental Insurance Major Dental Work",
-    "type": "coverage",
-    "product_code": "DENTAL_INSURANCE"
+    "product_type": "coverage",
+    "type": "DENTAL_INSURANCE"
   },
   {
     "id": 10000,
     "code": "PET_INSURANCE_ACCIDENTS_AND_ILLNESSES",
     "name": "Pet Insurance Accidents and Illnesses",
-    "type": "coverage",
-    "product_code": "PET_INSURANCE"
+    "product_type": "coverage",
+    "type": "PET_INSURANCE"
   },
   {
     "id": 10100,
     "code": "PET_INSURANCE_WELLNESS_COVERAGE",
     "name": "Pet Insurance Wellness Coverage",
-    "type": "coverage",
-    "product_code": "PET_INSURANCE"
+    "product_type": "coverage",
+    "type": "PET_INSURANCE"
   },
   {
     "id": 11000,
     "code": "FLOOD_INSURANCE_BUILDING_PROPERTY",
     "name": "Flood Insurance Building Property",
-    "type": "coverage",
-    "product_code": "FLOOD_INSURANCE"
+    "product_type": "coverage",
+    "type": "FLOOD_INSURANCE"
   },
   {
     "id": 11100,
     "code": "FLOOD_INSURANCE_PERSONAL_CONTENTS",
     "name": "Flood Insurance Personal Contents",
-    "type": "coverage",
-    "product_code": "FLOOD_INSURANCE"
+    "product_type": "coverage",
+    "type": "FLOOD_INSURANCE"
   },
   {
     "id": 12000,
     "code": "TRAVEL_INSURANCE_TRIP_CANCELLATION",
     "name": "Travel Insurance Trip Cancellation",
-    "type": "coverage",
-    "product_code": "TRAVEL_INSURANCE"
+    "product_type": "coverage",
+    "type": "TRAVEL_INSURANCE"
   },
   {
     "id": 12100,
     "code": "TRAVEL_INSURANCE_MEDICAL_EXPENSES",
     "name": "Travel Insurance Medical Expenses",
-    "type": "coverage",
-    "product_code": "TRAVEL_INSURANCE"
+    "product_type": "coverage",
+    "type": "TRAVEL_INSURANCE"
   }
 ]

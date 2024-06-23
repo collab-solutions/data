@@ -54,7 +54,7 @@ class CosmosService:
 
 
 class ProductService(CosmosService):
-    CONTAINER_NAME = "products"
+    CONTAINER_NAME = "product_catalog"
     PARTITION_KEY_NAME = "type"
 
     def __init__(self, settings: Settings):
@@ -67,6 +67,9 @@ class ProductService(CosmosService):
 
     def get_products_by_line(self, product_line_value: str) -> List[Product]:
         return self._get_by_type(product_line_value)
+
+    def get_products_by_code(self, product_code: str) -> List[Product]:
+        return self._get_by_type(product_code)
 
     def _get_by_type(self, product_type: str) -> List[Product]:
         query = f"SELECT * FROM {self.CONTAINER_NAME} c WHERE c.{self.PARTITION_KEY_NAME} = @product_type"

@@ -26,3 +26,13 @@ async def read_product_lines(service: Annotated[ProductService, Depends(get_prod
 async def read_products(product_line: str, service: Annotated[ProductService, Depends(get_product_service)]) -> List[Product]:
     products = service.get_products_by_line(product_line)
     return products
+
+
+@router.get(
+    "/products/{product_code}/items",
+    tags=["products"],
+    response_model=List[Product]
+)
+async def read_product_items(product_code: str, service: Annotated[ProductService, Depends(get_product_service)]) -> List[Product]:
+    products = service.get_products_by_code(product_code)
+    return products
