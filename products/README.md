@@ -39,6 +39,47 @@ CLIENT_SECRET=
 DATABASE_NAME=
 ```
 
+### Data
+
+You will need to load the data located in [data](data) folder to an Azure Cosmos DB instance. There are various ways you can do this. One example is to use the [Data Migration Tool](https://github.com/AzureCosmosDB/data-migration-desktop-tool?tab=readme-ov-file#azure-cosmos-db-desktop-data-migration-tool).
+
+Here is an example `migrationsettings.json` file you could use if using `dmt`.
+
+```json
+{
+  "Source": "JSON",
+  "Sink": "Cosmos-nosql",
+  "SourceSettings": {},
+  "SinkSettings": {
+    "ConnectionString": "<your connection string here>",
+    "Database": "sandbox",
+    "RecreateContainer": false,
+    "IncludeMetadataFields": false,
+    "UseSharedThroughput": true
+  },
+  "Operations": [
+    {
+      "SourceSettings": {
+        "FilePath": "/<path to your dir here>/data/products.json"
+      },
+      "SinkSettings": {
+        "Container": "products",
+        "PartitionKeyPath": "/type"
+      }
+    },
+    {
+      "SourceSettings": {
+        "FilePath": "/<path to your dir here>/data/coverages.json"
+      },
+      "SinkSettings": {
+        "Container": "coverages",
+        "PartitionKeyPath": "/type"
+      }
+    }
+  ]
+}
+```
+
 ### Running
 
 Running locally in dev 
