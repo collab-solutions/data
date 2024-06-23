@@ -1,17 +1,18 @@
-from functools import lru_cache
-from typing import Annotated
-from fastapi import Depends, FastAPI
-from . import config
+from fastapi import FastAPI
+import uvicorn
+
+from routers import products
 
 app = FastAPI()
 
 
-@lru_cache
-def get_settings() -> config.Settings:
-    return config.Settings()
+app.include_router(products.router)
 
 
 @app.get("/")
-async def root() -> dict[str, str]:
-    return {"message": "Hello World"}
+async def root():
+    return {"message": "Hello World!"}
 
+
+if __name__ == "__main__":
+    uvicorn.run(app, host="0.0.0.0", port=8000)
