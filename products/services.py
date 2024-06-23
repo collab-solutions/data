@@ -39,6 +39,7 @@ class CosmosService:
     def query_items(self,
                     query: str,
                     parameters: List[Dict[str, object]] | None = None,
+                    partition_key: str | None = None,
                     enable_cross_partition_query: bool | None = None,
                     **kwargs
                     ) -> ItemPaged[Dict[str, Any]]:
@@ -46,6 +47,7 @@ class CosmosService:
         return container.query_items(
             query,
             parameters=parameters,
+            partition_key=partition_key,
             enable_cross_partition_query=enable_cross_partition_query,
             max_item_count=None,
             **kwargs)
@@ -73,7 +75,10 @@ class ProductService(CosmosService):
             dict(name='@product_type', value=product_type)
         ]
 
-        items = self.query_items(query, parameters)
+        items = self.query_items(
+            query,
+            parameters,
+            partition_key=product_type)
 
         products = []
         for item in items:
